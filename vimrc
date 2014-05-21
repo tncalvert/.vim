@@ -7,19 +7,13 @@ set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
 " Vundle managers Vundle
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Other bundles go here
-Bundle 'scrooloose/nerdtree'
-
-" Vundle help
-" :BundleList            - List configured bundles
-" :BundleInstall(!)     - Install (update) bundles
-" :BundleSearch(!) foo  - search (or refresh cache first for foo
-" :BundleClean(!)       - Confirm (or auto-approved) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle commands are not allowed
+Plugin 'scrooloose/nerdtree'
+Plugin 'ervandew/supertab'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/syntastic'
 
 filetype plugin indent on   " enable detection, plugins and indenting
 syntax on
