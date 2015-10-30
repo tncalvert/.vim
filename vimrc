@@ -19,8 +19,8 @@ Plugin 'scrooloose/syntastic'
 filetype plugin indent on
 syntax on
 
-if &t_Co > 256 || has("gui_running")
-  colorscheme molokai
+if &t_Co >= 256 || has("gui_running")
+  colorscheme wombat256
 endif
 
 " settings {{{
